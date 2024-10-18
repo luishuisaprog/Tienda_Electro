@@ -1,0 +1,40 @@
+.prifile_container{
+    width: 100%;
+    height: 100%;
+    background: #F7F7F7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dv_profile_data{
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    max-width: 75%;
+    padding: 25px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.269);
+}
+.dv_profile_data img{
+    width: 150px;
+    border-radius: 50%;
+}
+.dv_profile_data p {
+    font-weight: bold;
+}
+.btn_profile_logout{
+    background: transparent;
+    color: #2fa8f8;
+    border: none;
+
+    cursor: pointer;
+    padding: 0.5rem;
+
+}

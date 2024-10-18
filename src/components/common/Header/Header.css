@@ -1,0 +1,141 @@
+.header_container{
+    width: 100%;
+    height: 2.8rem;
+    padding: 1rem;
+
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fff;
+
+    border-bottom: 1px solid #dcd9d9;
+   
+}
+.header_title{
+    color: #F85555;
+}
+.header_list_item{
+    width: 40%;
+
+    display: flex;
+    flex-direction: row;
+}
+.header_list{
+    width: 100%;
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_item{
+    width: 100%;
+    text-align: center;
+    color: #B0B0B0;
+    font-size: 1.8rem;
+
+    padding: 0.4rem;
+
+    border-left: 1px solid #dcd9d9;
+}
+.header_item:hover{
+    color: rgba(0, 0, 255, 0.62);
+}
+.header_navlink_items{
+    width: 100%;
+}
+.header_navlink_items--activate{
+     color: #f85555ab;
+}
+
+.dv_data_length{
+    font-size: 0.9rem;
+    padding: 0.2rem 0.4rem;
+
+
+    background-color: #F85555;
+    color: #fff;
+    border-radius: 50%;
+}
+.li_btn_log_out{
+    width: 90%;
+}
+.btn_log_out{
+    
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: transparent;
+    border: none;
+
+    border-left: 1px solid #dcd9d9;
+    padding: 0.4rem 0.4rem;
+    color: #B0B0B0;
+    cursor: pointer;
+}
+.btn_cart{
+    width: 100%;
+
+   
+    background-color: transparent;
+    border: none;
+
+    font-size: 1.8rem;
+    margin-bottom: 0.1rem;
+
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    
+    color: #B0B0B0;
+
+    cursor: pointer;
+}
+.btn_cart:hover {
+    color: rgba(0, 0, 255, 0.62);
+}
+
+
+.btn_log_out i{
+    color: rgba(22, 22, 254, 0.621);
+}
+.btn_log_out i:hover{
+    color: #F85555;
+}
+
+@media (max-width: 393px) {
+    .header_container{
+        width: 100%;
+        height: 2.8rem;
+        padding: 1rem 1.5rem 1rem 0.3rem;
+    
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        background-color: #fff;
+    
+        border-bottom: 1px solid #dcd9d9;
+       
+    }
+
+    .header_title{
+     
+        font-size: 1rem;
+    }
+
+}
+@media (max-width: 321px) {
+    .header_title{
+     
+        font-size: 0.85rem;
+    }
+}

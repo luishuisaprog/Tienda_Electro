@@ -1,0 +1,57 @@
+.form_label_name{
+    color: #515151;
+    font-family: Yantramanav,sans-serif;
+}
+.form_input_data{
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 1.1rem;
+    padding: 6px 8px;
+    width: 100%;
+
+}
+.form_input_btn_visible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_input_btn_visible button{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+    margin-bottom: 0.5rem;
+    padding: 0.1rem 0;
+
+    border: none;    
+}
+.btn_eye_container{
+   background-color: #fff;
+   
+}
+.btn_eye{
+    font-size: 1.4rem;
+    color: #51515178;
+
+    font-size: 20px;
+    
+    cursor: pointer;
+}
+.form_btn_login{
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+
+    background: #f85555;;
+    color: #fff;
+    margin: 10px 0 25px;
+    padding: 9px;
+    width: 100%;
+}
+.p_credencial_error{
+    font-size: 14px;
+    text-align: center;
+    color: red;
+}

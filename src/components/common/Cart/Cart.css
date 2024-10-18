@@ -1,0 +1,142 @@
+.wrapper-cart{
+  position: fixed;
+  inset:0 ;
+  top: 2.8rem;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  background-color: rgba(0, 0, 0, 0.581);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out;
+
+  overflow: auto;
+
+}
+.wrapper-cart--hidden{
+    opacity: 0;
+    display: none;
+
+}
+.cart{
+    width: 100%;
+    max-width: 30%;
+    
+    padding: 1rem 0.5rem;
+
+    background-color: #fff;
+}
+.cart_title{
+  text-align: center;
+  color: #F85555;
+}
+.cls_empty_cart_text{
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 3rem;
+  margin-top: 5rem;
+
+  color: #3c43f892;
+}
+
+.cart_product_list_container{
+  height: 100%;
+}
+.cart_product_list{
+  list-style: none;
+}
+
+.dv_cart_product_data_price{
+
+  position: sticky;
+  right: 2rem;
+  bottom: 1rem;
+
+  font-weight: bold;
+
+  
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  background: #e4dddd;
+  border-radius: 15px;  
+  align-items: end;
+
+  margin-top: 1.5rem;
+  padding: 1rem;
+
+}
+.dv_cart_product_data_price p{
+  display: flex;
+  gap: 1.8rem;
+}
+.dv_cart_product_data_price p span{
+  color: blue;
+}
+.dv_cart_product_data_price p em{
+  color: rgba(2, 129, 2, 0.931);
+}
+.btn_cart_product_checkout{
+  background-color: #F85555;
+  color: #fff;
+
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+
+  padding: 0.3rem;
+
+  cursor: pointer;
+
+}
+
+  
+@media (max-width: 769px) {
+
+  .cart{
+      max-width: 42%;
+  }
+  .cart_title{
+    font-size: 1.3rem;
+  }
+
+}
+@media (max-width: 579px) {
+  .cart{
+    max-width: 50%;
+  }
+  .cart_title{
+    font-size: 1.3rem;
+  }
+
+}
+@media (max-width: 431px) {
+  .cart{
+    max-width: 70%;
+  }
+  .cart_title{
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 393px) {
+  .cart{
+    max-width: 75%;
+  }
+  .cart_title{
+    font-size: 1.15rem;
+  }
+}
+@media (max-width: 321px) {
+  .cart{
+    max-width: 90%;
+  }
+  .cart_title{
+    font-size: 1.2rem;
+  }
+
+}

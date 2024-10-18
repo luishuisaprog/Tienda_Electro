@@ -1,0 +1,17 @@
+.purchase_section_container{
+    width: 100%;
+    padding: 5rem 1rem;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 1.5rem;
+
+}
+
+.purchase_list_container{
+    width: 100%;
+    list-style: none;
+}
